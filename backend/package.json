@@ -1,0 +1,22 @@
+{
+  "name": "upbit-monitor-backend",
+  "version": "1.0.0",
+  "description": "Upbit 실시간 코인 모니터링 백엔드",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "axios": "^0.26.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "jsonwebtoken": "^8.5.1",
+    "technicalindicators": "^3.1.0",
+    "ws": "^8.5.0",
+    "dotenv": "^16.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
